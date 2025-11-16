@@ -66,6 +66,9 @@
 	  <Compile Update="Views\ContratacaoHospedagem.xaml.cs">
 	    <DependentUpon>ContratacaoHospedagem.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="Views\Sobre.xaml.cs">
+	    <DependentUpon>Sobre.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -73,6 +76,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\HospedagemContratada.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Sobre.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
